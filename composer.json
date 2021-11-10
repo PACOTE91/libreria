@@ -1,0 +1,15 @@
+{
+    "name": "paco/libreria",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Libreria\\": "src/"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.16",
+        "illuminate/support": "^8.68",
+        "milon/barcode": "^8.0",
+        "fale/isbn": "^3.1"
+    }
+}
